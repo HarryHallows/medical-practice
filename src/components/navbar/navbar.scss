@@ -1,0 +1,16 @@
+@import "../../globalStyles/colours.scss";
+
+.navbar
+{
+    //sizing
+    width: 100%;
+    height: 70px;
+
+    //Colouring
+    background-color: $accentColour;
+
+    //positioning
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
